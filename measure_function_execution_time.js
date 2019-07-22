@@ -12,3 +12,7 @@ console.time('addUpTo');
 addUpTo(1000000000);
 
 console.timeEnd('addUpTo');
+
+// The problem with comparing performance of algorithms based on time
+
+// Different machines record different times, same machine records different times, for fast algorithms, speed measurements will not be precise
